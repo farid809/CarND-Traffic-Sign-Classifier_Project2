@@ -316,39 +316,39 @@ showSampleImage(X_train,y_train,10,filter_class=40,randomize=True,hSize=8,wSize=
 ```
 
 
-![png](output_13_0.png)
+![png](writeup_images/output_13_0.png)
 
 
 
-![png](output_13_1.png)
+![png](writeup_images/output_13_1.png)
 
 
 
-![png](output_13_2.png)
+![png](writeup_images/output_13_2.png)
 
 
 
-![png](output_13_3.png)
+![png](writeup_images/output_13_3.png)
 
 
 
-![png](output_13_4.png)
+![png](writeup_images/output_13_4.png)
 
 
 
-![png](output_13_5.png)
+![png](writeup_images/output_13_5.png)
 
 
 
-![png](output_13_6.png)
+![png](writeup_images/output_13_6.png)
 
 
 
-![png](output_13_7.png)
+![png](writeup_images/output_13_7.png)
 
 
 
-![png](output_13_8.png)
+![png](writeup_images/output_13_8.png)
 
 
 #### Display CSV file content
@@ -437,7 +437,7 @@ plt.show()
     
 
 
-![png](output_16_1.png)
+![png](writeup_images/output_16_1.png)
 
 
 ## Data Set Augmentation
@@ -636,7 +636,7 @@ plt.show()
 ```
 
 
-![png](output_19_0.png)
+![png](writeup_images/output_19_0.png)
 
 
 #### Image Augmentation Process
@@ -762,7 +762,7 @@ plt.bar(augmentation_stats.keys(),augmentation_stats.values(),width=1.0,color='g
 
 
 
-![png](output_22_2.png)
+![png](writeup_images/output_22_2.png)
 
 
 
@@ -790,67 +790,67 @@ showSampleImage(X_train_augmented,y_train_augmented,10,filter_class=42,randomize
 ```
 
 
-![png](output_23_0.png)
+![png](writeup_images/output_23_0.png)
 
 
 
-![png](output_23_1.png)
+![png](writeup_images/output_23_1.png)
 
 
 
-![png](output_23_2.png)
+![png](writeup_images/output_23_2.png)
 
 
 
-![png](output_23_3.png)
+![png](writeup_images/output_23_3.png)
 
 
 
-![png](output_23_4.png)
+![png](writeup_images/output_23_4.png)
 
 
 
-![png](output_23_5.png)
+![png](writeup_images/output_23_5.png)
 
 
 
-![png](output_23_6.png)
+![png](writeup_images/output_23_6.png)
 
 
 
-![png](output_23_7.png)
+![png](writeup_images/output_23_7.png)
 
 
 
-![png](output_23_8.png)
+![png](writeup_images/output_23_8.png)
 
 
 
-![png](output_23_9.png)
+![png](writeup_images/output_23_9.png)
 
 
 
-![png](output_23_10.png)
+![png](writeup_images/output_23_10.png)
 
 
 
-![png](output_23_11.png)
+![png](writeup_images/output_23_11.png)
 
 
 
-![png](output_23_12.png)
+![png](writeup_images/output_23_12.png)
 
 
 
-![png](output_23_13.png)
+![png](writeup_images/output_23_13.png)
 
 
 
-![png](output_23_14.png)
+![png](writeup_images/output_23_14.png)
 
 
 
-![png](output_23_15.png)
+![png](writeup_images/output_23_15.png)
 
 
 
@@ -874,11 +874,11 @@ plt.show()
 ```
 
 
-![png](output_24_0.png)
+![png](writeup_images/output_24_0.png)
 
 
 
-![png](output_24_1.png)
+![png](writeup_images/output_24_1.png)
 
 
 
@@ -893,7 +893,7 @@ showSampleImage(X_train,y_train,50,filter_class=18,randomize=True,image_title=Fa
 ```
 
 
-![png](output_25_0.png)
+![png](writeup_images/output_25_0.png)
 
 
 
@@ -998,7 +998,7 @@ axs[1].imshow(X_train_rgb[0])
 
 
 
-![png](output_31_2.png)
+![png](writeup_images/output_31_2.png)
 
 
 ### Question 2.1. Describe how you preprocessed the image data. What techniques were chosen and why did you choose these techniques? Consider including images showing the output of each preprocessing technique. Pre-processing refers to techniques such as converting to grayscale, normalization, etc. (OPTIONAL: As described in the "Stand Out Suggestions" part of the rubric, if you generated additional data for training, describe why you decided to generate additional data, how you generated the data, and provide example images of the additional data. Then describe the characteristics of the augmented training set like number of images in the set, number of images for each class, etc.)
@@ -1734,7 +1734,7 @@ with tf.Session() as sess:
 ```
 
 
-![png](output_50_0.png)
+![png](writeup_images/output_50_0.png)
 
 
 ### Question 2.4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
@@ -1843,7 +1843,7 @@ showSampleImage(X_Extra,
     
 
 
-![png](output_56_1.png)
+![png](writeup_images/output_56_1.png)
 
 
 
@@ -1866,7 +1866,7 @@ print(y_extra[1])
     
 
 
-![png](output_57_1.png)
+![png](writeup_images/output_57_1.png)
 
 
 ### Predict the Sign Type for Each Image
@@ -1895,7 +1895,7 @@ showSampleImage(X_Extra,predicted_label, len(X_Extra),randomize=False,filter_cla
     
 
 
-![png](output_59_1.png)
+![png](writeup_images/output_59_1.png)
 
 
 ### Analyze Performance
@@ -2365,7 +2365,7 @@ with tf.Session() as sess:
     
 
 
-![png](output_69_1.png)
+![png](writeup_images/output_69_1.png)
 
 
     >>> conv1 Feature Maps Visualization (conv1 output = 14x14x6) :
@@ -2374,7 +2374,7 @@ with tf.Session() as sess:
     
 
 
-![png](output_69_3.png)
+![png](writeup_images/output_69_3.png)
 
 
     >>> conv2 Feature Maps Visualization (conv2 output = 5x5x16):
@@ -2383,5 +2383,5 @@ with tf.Session() as sess:
     
 
 
-![png](output_69_5.png)
+![png](writeup_images/output_69_5.png)
 
