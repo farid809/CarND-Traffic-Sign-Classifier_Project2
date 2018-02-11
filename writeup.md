@@ -291,7 +291,7 @@ showSampleImage(X_train,y_train,number_of_samples=20,randomize=True,filter_class
 ```
 
 
-![png](output_11_0.png)
+![png](writeup_images/output_11_0.png)
 
 
 #### show  random Images from the data set filter for a specific class   
